@@ -48,12 +48,7 @@ function Header(){
                 </div>
             </Link>
 
-            <Link to="/eve" className="items_link">
-                <div className="header_basket">
-                <ShopppingBasketIcon/>  
-                <span className="header_line_two basket_count"> EV e</span>
-                </div>
-            </Link>
+           
 
             
 
