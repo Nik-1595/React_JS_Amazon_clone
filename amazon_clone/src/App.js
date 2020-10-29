@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from "./Header.js";
 import Home from "./Home.js";
-import Evenforce from "./Evenforce.js";
+
 
 function App() {
   return (
@@ -18,9 +18,7 @@ function App() {
          <h1>Login</h1>
        </Route>
 
-       <Route path="/eve">
-         <Evenforce />
-       </Route>
+       
 
        <Route path="/">
        <Header />
